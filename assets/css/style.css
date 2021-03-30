@@ -1180,6 +1180,96 @@ font-weight: 700;
     padding-bottom: 50px;
 }
 
-.desc{
+.feature-projects h1{
+    font-size: 28px;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+}
 
+.contact{
+    padding: 70px 0px;
+}
+
+.effect-8{
+    border: 1px solid #ccc; 
+    padding: 7px 14px 9px; 
+    transition: 0.4s;
+}
+
+.effect-8 ~ .focus-border:before,
+.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.3s;}
+.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
+.effect-8 ~ .focus-border i:before,
+.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #3399FF; transition: 0.4s;}
+.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-8:focus ~ .focus-border:before,
+.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.3s;}
+.effect-8:focus ~ .focus-border i:before,
+.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.4s;}
+
+:focus{outline: none;}
+
+.form-grp{
+    position: relative; 
+}
+
+input[type="text"]{
+    
+    font: 15px/24px "Lato", Arial, sans-serif; 
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: none;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0!important;
+}
+.form-control {
+    border-radius: 0!important;
+}
+
+.contact-title{
+    font-size: 38px;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contact p{
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+
+.location{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.location .col-md-8{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.location h4{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'PatuaOneRegular';
 }

@@ -1,4 +1,152 @@
 @media (max-width: 1399.98px) {
+    
+    .contact{
+        padding: 70px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 38px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 18px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 24px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 20px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+    
     .soft-banner {
         padding: 40px 0px;
     }
@@ -229,9 +377,6 @@
         background: #00a0a0!important;
         /* border-radius: 6px; */
         /* -webkit-border-radius: 5px; */
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
     }
     
     .hvr-shutter-out-vertical.active::before{
@@ -611,8 +756,217 @@
     .footer img {
         width: 140px;
     }
+
+    
+    .about-main h1 {
+        font-size: 30px;
+        text-align: left;
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        /* display: block; */
+    }
+
+    .about-main p {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 34px;
+    }
+
+    .our-team h1::before {
+        font-size: 60px;
+    }
+
+    .our-team .pm {
+        font-size: 20px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
+    .title-box{
+        margin: auto;
+    }
 }
 @media (max-width: 1199.98px) {
+    
+    .contact{
+        padding: 70px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative;
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 36px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 18px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 24px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 18px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -649,7 +1003,7 @@
 
     .soft-banner .desc{
         text-align: left;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .our-projects h1 {
@@ -1225,8 +1579,216 @@
     .footer img {
         width: 140px;
     }
+
+    
+    .about-main h1 {
+        font-size: 28px;
+        text-align: left;
+        /* display: table-footer-group; */
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        /* display: flex; */
+    }
+
+    .about-main p {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 32px;
+    }
+
+    .our-team h1::before {
+        font-size: 55px;
+    }
+
+    .our-team .pm {
+        font-size: 18px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
 }
 @media (max-width: 991.98px) {
+    
+    .contact{
+        padding: 70px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative;
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 32px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 18px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 22px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -1831,8 +2393,213 @@
     .footer img {
         width: 140px;
     }
+
+    
+    .about-main h1 {
+        font-size: 26px;
+        text-align: center;
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        display: block;
+    }
+
+    .about-main p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 30px;
+    }
+
+    .our-team h1::before {
+        font-size: 55px;
+    }
+
+    .our-team .pm {
+        font-size: 20px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
 }
 @media (max-width: 767.98px) { 
+    
+    .contact{
+        padding: 50px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px;
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 30px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 16px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 22px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -2359,12 +3126,12 @@
     }
     
     .user-text h4{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
     }
     
     .user-text p{
-        font-size: 14px;
+        font-size: 18px;
         margin: 0;
     }
     
@@ -2421,8 +3188,215 @@
         margin: auto;
         margin-bottom: 30px;
     }
+
+    
+    .about-main h1 {
+        font-size: 26px;
+        text-align: center;
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        display: block;
+    }
+
+    .about-main p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 28px;
+    }
+
+    .our-team h1::before {
+        font-size: 45px;
+    }
+
+    .our-team .pm {
+        font-size: 20px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
 }
 @media (max-width: 575.98px) { 
+    
+    .contact{
+        padding: 50px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0;
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 28px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 16px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 22px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -2443,10 +3417,10 @@
     }
 
     .breadcrumb .breadcrumb-item a {
-        font-size: 14px;
+        font-size: 16px;
     }
     .breadcrumb-item.active {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .soft-banner h1{
@@ -2458,6 +3432,7 @@
     .soft-banner .desc{
         text-align: center;
         font-size: 16px;
+        margin-bottom: 30px;
     }
 
     .our-projects h1 {
@@ -2820,7 +3795,7 @@
     }
     
     .user-text h4{
-        font-size: 18px;
+        font-size: 20px;
         text-transform: capitalize;
         font-weight: 700;
         font-family: 'Poppins',sans-serif;
@@ -2836,14 +3811,6 @@
         margin: 0;
     }
     
-    /* 
-        TESTIMONIALS END
-    */
-    
-    
-    /* 
-        FOOTER SECTION START
-    */
 
     .footer img{
         max-width: 140px;
@@ -2882,9 +3849,213 @@
         font-size: 16px;
     }
     
+    
+    .about-main h1 {
+        font-size: 26px;
+        text-align: center;
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        display: block;
+    }
+
+    .about-main p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 30px;
+    }
+
+    .our-team h1::before {
+        font-size: 50px;
+    }
+
+    .our-team .pm {
+        font-size: 18px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
 }
 @media (max-width: 500px) { 
     
+    .contact{
+        padding: 50px 0px;
+    }
+
+    
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+    
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 30px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 16px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 18px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -3332,9 +4503,211 @@
         font-size: 14px;
     }
     
+    
+    .about-main h1 {
+        font-size: 26px;
+        text-align: center;
+        /* display: flow-root; */
+    }
+
+    .about-main .title-style {
+        font-size: 34px;
+        display: block;
+    }
+
+    .about-main p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 28px;
+    }
+
+    .our-team h1::before {
+        font-size: 45px;
+    }
+
+    .our-team .pm {
+        font-size: 16px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
+    
 }
 @media (max-width: 375px) { 
+    .contact{
+        padding: 50px 0px;
+    }
     
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 28px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .contact p{
+        font-size: 16px;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'PatuaOneRegular';
+    }
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 18px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
     .soft-banner {
         padding: 40px 0px;
     }
@@ -3351,14 +4724,14 @@
     }
 
     .breadcrumb-top h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .breadcrumb .breadcrumb-item a {
-        font-size: 12px;
+        font-size: 14px;
     }
     .breadcrumb-item.active {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .soft-banner h1{
@@ -3773,9 +5146,200 @@
     footer p span{
         font-size: 14px;
     }
+
+    
+    .about-main h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .about-main .title-style {
+        font-size: 32px;
+    }
+
+    .about-main p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .content-bx h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .content-bx p {
+        text-align: left;
+    }
+
+    .icn-bx{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .icn-bx img {
+        padding: 5px;
+    }
+
+    .exp-bx{
+        margin: auto;
+    }
+
+    .our-team h1 {
+        font-size: 28px;
+    }
+
+    .our-team h1::before {
+        font-size: 45px;
+    }
+
+    .our-team .pm {
+        font-size: 16px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
+    }
     
 }
 @media (max-width: 320px) { 
+    .contact{
+        padding: 70px 0px;
+    }
+
+    .effect-8{
+        border: 1px solid #ccc; 
+        padding: 7px 14px 9px; 
+        transition: 0.4s;
+    }
+
+    .effect-8 ~ .focus-border:before,
+    .effect-8 ~ .focus-border:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 0; 
+        height: 2px; 
+        background-color: #00a0a0; 
+        transition: 0.3s;
+    }
+    .effect-8 ~ .focus-border:after{
+        top: auto; 
+        bottom: 0; 
+        left: auto; 
+        right: 0;
+    }
+    .effect-8 ~ .focus-border i:before,
+    .effect-8 ~ .focus-border i:after{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 2px; 
+        height: 0; 
+        background-color: #00a0a0; 
+        transition: 0.4s;
+    }
+    .effect-8 ~ .focus-border i:after{
+        left: auto; 
+        right: 0; 
+        top: auto; 
+        bottom: 0;
+    }
+    .effect-8:focus ~ .focus-border:before,
+    .effect-8:focus ~ .focus-border:after{
+        width: 100%; 
+        transition: 0.3s;
+    }
+    .effect-8:focus ~ .focus-border i:before,
+    .effect-8:focus ~ .focus-border i:after{
+        height: 100%; 
+        transition: 0.4s;
+    }
+
+    :focus{outline: none;}
+
+    .form-grp{
+        position: relative; 
+    }
+
+    input[type="text"]{
+        font: 15px/24px "Lato", Arial, sans-serif; 
+        color: #333; 
+        width: 100%; 
+        box-sizing: border-box; 
+        letter-spacing: 1px;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: none;
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 0!important;
+    }
+    .form-control {
+        border-radius: 0!important;
+    }
+
+    .contact-title{
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .contact p{
+        font-size: 16px;
+    }
+
+    .location{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .location .col-md-8{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .location h4{
+        font-size: 28px;
+    }
+
+    .erp-pjt .icon-box-pr i{
+        height: 50px;
+        width: 50px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+    .erp h1{
+        font-size: 18px!important;
+    }
+    .erp .desc{
+        font-size: 14px;
+    }
+    .feature-projects h1{
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .feature-projects .pox{
+        font-size: 16px;
+    }
+    .erp-pjt{
+        justify-content: start!important;
+    }
+    .erp-pjt h4 {
+        font-size: 18px;
+    }
+
+
     .hover-text{
         font-size: 14px;
     }
@@ -4146,7 +5710,7 @@
     }
 
     .project-box h4 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .project-box .pjt-desc {
@@ -4227,7 +5791,7 @@
     .content-bx p {
         text-align: left;
     }
-    
+
     .icn-bx{
         width: 65px;
         height: 65px;
@@ -4252,5 +5816,10 @@
 
     .our-team .pm {
         font-size: 16px;
+    }
+
+    .our-team .card-body img{
+        width: 100px!important;
+        height: 100px;
     }
 }
