@@ -1,0 +1,41 @@
+
+.icon-bx-wraper.style-2>[class*="icon-bx-"].text-green:before {
+	background-image: url(../img/pat-green.png);
+    opacity: 0;
+}
+
+.icon-bx-wraper.style-2:hover>[class*="icon-bx-"] {
+	background-color: transparent !important;
+}
+
+.icon-bx-wraper.style-2:hover>[class*="icon-bx-"] .icon-cell {
+	color: #fff;
+}
+
+.icon-bx-md.radius {
+    border-radius: 100%;
+}
+
+.icon-bx-wraper.style-2 {
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-bx-wraper.style-2>[class*="icon-bx-"] {
+	position: relative;
+	margin: 20px;
+	min-width: 100px;
+	transition: all 0.5s;
+}
+
+.icon-bx-wraper.style-2>[class*="icon-bx-"]:before {
+    content: "";
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    left: -31px;
+    top: -30px;
+    background-size: contain;
+    z-index: -1;
+}

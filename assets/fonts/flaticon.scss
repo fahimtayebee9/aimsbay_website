@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fbcca34d987e64662b989e01916a5679") format("truetype"),
+url("./flaticon.woff?fbcca34d987e64662b989e01916a5679") format("woff"),
+url("./flaticon.woff2?fbcca34d987e64662b989e01916a5679") format("woff2"),
+url("./flaticon.eot?fbcca34d987e64662b989e01916a5679#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fbcca34d987e64662b989e01916a5679#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "algorithm-1": "\f101",
+    "algorithm": "\f102",
+    "code-1": "\f103",
+    "code": "\f104",
+    "computer": "\f105",
+    "java-script": "\f106",
+    "mysql-1": "\f107",
+    "mysql-2": "\f108",
+    "mysql": "\f109",
+    "php": "\f10a",
+    "programming-language": "\f10b",
+    "project-plan": "\f10c",
+    "setting": "\f10d",
+    "software-developer": "\f10e",
+    "software": "\f10f",
+    "strategy": "\f110",
+    "trend": "\f111",
+    "web": "\f112",
+    "xml": "\f113",
+);
+
+.flaticon-algorithm-1:before {
+    content: map-get($flaticon-map, "algorithm-1");
+}
+.flaticon-algorithm:before {
+    content: map-get($flaticon-map, "algorithm");
+}
+.flaticon-code-1:before {
+    content: map-get($flaticon-map, "code-1");
+}
+.flaticon-code:before {
+    content: map-get($flaticon-map, "code");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-java-script:before {
+    content: map-get($flaticon-map, "java-script");
+}
+.flaticon-mysql-1:before {
+    content: map-get($flaticon-map, "mysql-1");
+}
+.flaticon-mysql-2:before {
+    content: map-get($flaticon-map, "mysql-2");
+}
+.flaticon-mysql:before {
+    content: map-get($flaticon-map, "mysql");
+}
+.flaticon-php:before {
+    content: map-get($flaticon-map, "php");
+}
+.flaticon-programming-language:before {
+    content: map-get($flaticon-map, "programming-language");
+}
+.flaticon-project-plan:before {
+    content: map-get($flaticon-map, "project-plan");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon-map, "setting");
+}
+.flaticon-software-developer:before {
+    content: map-get($flaticon-map, "software-developer");
+}
+.flaticon-software:before {
+    content: map-get($flaticon-map, "software");
+}
+.flaticon-strategy:before {
+    content: map-get($flaticon-map, "strategy");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon-map, "trend");
+}
+.flaticon-web:before {
+    content: map-get($flaticon-map, "web");
+}
+.flaticon-xml:before {
+    content: map-get($flaticon-map, "xml");
+}
